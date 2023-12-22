@@ -1,0 +1,160 @@
+#id,internal_name,name,cooldown,type,element,shield dmg,target,description,evolution
+#------------------------------------
+# Regular Powers
+#------------------------------------
+ID: 1
+IntName: ARCHER
+Name: Archer
+Cooldown: 3
+Type: dmg
+Element: WIND
+ShieldDamage: 2
+Target: SingleTarget
+Description: Deals single target Wind damage of base power {power}.
+Evolution: SUPERARCHER,5,5000
+#------------------------------------
+ID: 2
+IntName: WALLBREAKER
+Name: Wall Breaker
+Cooldown: 2
+Type: dmg
+Element: FIRE
+ShieldDamage: 3
+Target: SingleTarget
+Description: Deals major shield damage.
+Evolution: SUPERWALLBREAKER,8,25000
+#------------------------------------
+ID: 3
+IntName: WIZARD
+Name: Wizard
+Cooldown: 3
+Type: dmg
+Element: FIRE
+ShieldDamage: 2
+Target: SingleTarget
+Description: Deals single target Fire damage of base power {power}.
+Evolution: SUPERWIZARD,10,40000
+#------------------------------------
+ID: 4
+IntName: ICEWIZARD
+Name: Ice Wizard
+Cooldown: 4
+Type: slow
+Element: ICE
+ShieldDamage: 0
+Target: SingleTarget
+Description: Slows an enemy by {power}%.
+#------------------------------------
+ID: 5
+IntName: HEALER
+Name: Healer
+Cooldown: 2
+Type: heal
+Element: HOLY
+ShieldDamage: 0
+Target: SingleTarget
+Description: Heals your Barbarian {power}% of its max HP.
+#------------------------------------
+ID: 6
+IntName: MINER
+Name: Miner
+Cooldown: 3
+Type: dmg
+Element: GEO
+ShieldDamage: 3
+Target: SingleTarget
+Description: Deals single target Geo damage of base power {power}.
+Evolution: SUPERMINER,13,50000
+#------------------------------------
+ID: 7
+IntName: HEADHUNTER
+Name: Headhunter
+Cooldown: 2
+Type: weaken
+Element: DARK
+ShieldDamage: 1
+Target: SingleTarget
+Description: Reduce damage dealt by a single target by {power}%.
+#------------------------------------
+ID: 8
+IntName: ETITAN
+Name: Electro Titan
+Cooldown: 5
+Type: dmg
+Element: LIGHTNING
+ShieldDamage: 2
+Target: AoE
+Description: Deals AoE Lightning damage of base power {power}.
+#------------------------------------
+ID: 9
+IntName: APPRENTICEWARDEN
+Name: Apprentice Warden
+Cooldown: 5
+Type: buff
+Element: HOLY
+ShieldDamage: 0
+Target: SingleTarget
+Description: Heals your Barbarian and buffs its max HP by {power}% of its max HP.
+#------------------------------------
+ID: 10
+IntName: DRAGONRIDER
+Name: Dragon Rider
+Cooldown: 3
+Type: buff
+Element: FIRE
+ShieldDamage: 0
+Target: SingleTarget
+Description: Enables all of your Barbarian's attacks to hit flying troops.
+#------------------------------------
+# Special Powers
+#------------------------------------
+ID: 101
+IntName: SUPERARCHER
+Name: Super Archer
+Cooldown: 3
+Type: dmg
+Element: WIND
+ShieldDamage: 2
+Target: Blast
+Description: Deals blast Wind damage of base power {power}.
+Evolution: ARCHERQUEEN,10,50000
+#------------------------------------
+ID: 102
+IntName: SUPERWALLBREAKER
+Name: Super Wall Breaker
+Cooldown: 2
+Type: dmg
+Element: FIRE
+ShieldDamage: 5
+Target: SingleTarget
+Description: Deals major shield damage.
+#------------------------------------
+ID: 103
+IntName: SUPERWIZARD
+Name: Super Wizard
+Cooldown: 3
+Type: dmg
+Element: FIRE
+ShieldDamage: 3
+Target: Blast
+Description: Deals blast Fire damage of base power {power}.
+#------------------------------------
+ID: 104
+IntName: SUPERMINER
+Name: Super Miner
+Cooldown: 3
+Type: dmg
+Element: GEO
+ShieldDamage: 3
+Target: Blast
+Description: Deals blast Geo damage of base power {power}.
+#------------------------------------
+ID: 201
+IntName: ARCHERQUEEN
+Name: Archer Queen
+Cooldown: 4
+Type: dmg
+Element: WIND
+ShieldDamage: 4
+Target: AoE
+Description: Deals AoE Wind damage of base power {power}.

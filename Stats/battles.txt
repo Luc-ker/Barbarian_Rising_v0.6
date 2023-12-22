@@ -1,0 +1,592 @@
+#------------------------------------
+[TESTBATTLE1]
+WaveSizes: 2,2
+Troop: WALLBREAKER,1
+Ability: RAGE
+Attacks: GOLDRUSH,SUPERSLASH
+Troop: WALLBREAKER,1
+Ability: RAGE
+Attacks: GOLDRUSH
+Troop: WALLBREAKER,1
+Ability: RAGE
+Troop: WALLBREAKER,1
+Ability: RAGE
+#------------------------------------
+[TESTBATTLE2]
+WaveSizes: 1,1
+Troop: WALLBREAKER,1
+Attacks: GOLDRUSH,EXPLOSION
+Troop: WALLBREAKER,1
+Attacks: SLASH,EXPLOSION
+#------------------------------------
+[GOLDBATTLE1]
+WaveSizes: 2
+Stamina: 10
+Reward: 1300
+Troop: GOBLIN,1
+Troop: GOBLIN,1
+#------------------------------------
+[GOLDBATTLE2]
+WaveSizes: 2
+Stamina: 15
+Reward: 1800
+Troop: GOBLIN,5
+Troop: GOBLIN,5
+#------------------------------------
+[GOLDBATTLE3]
+WaveSizes: 2
+Stamina: 18
+Reward: 2375
+Troop: GOBLIN,10
+Troop: GOBLIN,10
+#------------------------------------
+[GOLDBATTLE4]
+WaveSizes: 2
+Stamina: 20
+Reward: 2900
+Troop: GOBLIN,20
+Troop: GOBLIN,20
+#------------------------------------
+[GOLDBATTLE5]
+WaveSizes: 2
+Stamina: 22
+Reward: 3575
+Troop: GOBLIN,30
+Troop: GOBLIN,30
+#------------------------------------
+[GOLDBATTLE6]
+WaveSizes: 2
+Stamina: 25
+Reward: 4500
+Troop: GOBLIN,40
+Troop: GOBLIN,40
+#------------------------------------
+[ELIXIRBATTLE1]
+WaveSizes: 2
+Stamina: 10
+Reward: 1000
+Troop: GOBLIN,1
+Troop: ARCHER,1
+#------------------------------------
+[ELIXIRBATTLE2]
+WaveSizes: 2
+Stamina: 15
+Reward: 2100
+Troop: GOBLIN,5
+Troop: ARCHER,5
+#------------------------------------
+[ELIXIRBATTLE3]
+WaveSizes: 2
+Stamina: 18
+Reward: 2850
+Troop: GOBLIN,10
+Troop: ARCHER,10
+#------------------------------------
+[ELIXIRBATTLE4]
+WaveSizes: 2
+Stamina: 20
+Reward: 4400
+Troop: GOBLIN,20
+Troop: ARCHER,20
+#------------------------------------
+[ELIXIRBATTLE5]
+WaveSizes: 2
+Stamina: 22
+Reward: 5175
+Troop: GOBLIN,30
+Troop: ARCHER,30
+#------------------------------------
+[ELIXIRBATTLE6]
+WaveSizes: 2
+Stamina: 25
+Reward: 6250
+Troop: GOBLIN,40
+Troop: ARCHER,40
+#------------------------------------
+[OREBATTLE1]
+WaveSizes: 3
+Stamina: 10
+Reward: 50
+Troop: GOBLIN,20
+Troop: GOBLIN,20
+Troop: GOBLIN,20
+#------------------------------------
+[OREBATTLE2]
+WaveSizes: 3
+Stamina: 15
+Reward: 150
+Troop: GOBLIN,50
+Troop: GOBLIN,50
+Troop: GOBLIN,50
+#------------------------------------
+[OREBATTLE3]
+WaveSizes: 3
+Stamina: 18
+Reward: 375
+Troop: GOBLIN,70
+Troop: GOBLIN,70
+Troop: GOBLIN,70
+#------------------------------------
+[OREBATTLE4]
+WaveSizes: 3
+Stamina: 20
+Reward: 750
+Troop: GOBLIN,90
+Troop: GOBLIN,90
+Troop: GOBLIN,90
+#------------------------------------
+[OREBATTLE5]
+WaveSizes: 3
+Stamina: 22
+Reward: 1250
+Troop: GOBLIN,112
+Troop: GOBLIN,112
+Troop: GOBLIN,112
+#------------------------------------
+[OREBATTLE6]
+WaveSizes: 3
+Stamina: 25
+Reward: 2000
+Troop: GOBLIN,130
+Troop: GOBLIN,130
+Troop: GOBLIN,130
+#------------------------------------
+[DARKELIXIRBATTLE1]
+WaveSizes: 2,2
+Stamina: 10
+Reward: 500
+Troop: MINER,30
+Troop: MINION,28
+Troop: WITCH,32
+Troop: BALLOON,32
+#------------------------------------
+[DARKELIXIRBATTLE2]
+WaveSizes: 2,2
+Stamina: 15
+Reward: 1000
+Troop: MINER,45
+Troop: MINION,43
+Troop: WITCH,48
+Troop: BALLOON,48
+#------------------------------------
+[DARKELIXIRBATTLE3]
+WaveSizes: 2,2
+Stamina: 18
+Reward: 1550
+Troop: MINER,60
+Troop: MINION,58
+Troop: WITCH,62
+Troop: BALLOON,62
+#------------------------------------
+[DARKELIXIRBATTLE4]
+WaveSizes: 2,2
+Stamina: 20
+Reward: 2100
+Troop: MINER,78
+Troop: MINION,73
+Troop: WITCH,78
+Troop: BALLOON,82
+#------------------------------------
+[DARKELIXIRBATTLE5]
+WaveSizes: 2,2
+Stamina: 22
+Reward: 3250
+Troop: SUPERMINER,94
+Troop: BOWLER,92
+Troop: WITCH,92
+Troop: ROCKETBALLOON,92
+#------------------------------------
+[DARKELIXIRBATTLE6]
+WaveSizes: 2,2
+Stamina: 25
+Reward: 4600
+Troop: SUPERMINER,112
+Troop: BOWLER,108
+Troop: WITCH,112
+Troop: ROCKETBALLOON,112
+#------------------------------------
+[GOBLINBATTLE1]
+WaveSizes: 2
+Troop: GOBLIN,1
+Troop: GOBLIN,1
+#------------------------------------
+[TH2BATTLE1]
+WaveSizes: 2
+Troop: GOBLIN,5
+Troop: ARCHER,8
+#------------------------------------
+[TH2BATTLE2]
+WaveSizes: 2
+Troop: GOBLIN,20
+Troop: ARCHER,20
+#------------------------------------
+[TH2BATTLE3]
+WaveSizes: 2
+Troop: GOBLIN,30
+Troop: ARCHER,30
+#------------------------------------
+[TH3BATTLE1]
+WaveSizes: 3
+Troop: GOBLIN,20
+Troop: ARCHER,20
+Troop: GIANT,20
+#------------------------------------
+[TH3BATTLE2]
+WaveSizes: 3
+Troop: GOBLIN,30
+Troop: ARCHER,30
+Troop: GIANT,30
+#------------------------------------
+[TH3BATTLE3]
+WaveSizes: 3
+Troop: GOBLIN,40
+Troop: ARCHER,40
+Troop: GIANT,40
+#------------------------------------
+[TH4BATTLE1]
+WaveSizes: 3,2
+Troop: MINION,28
+Troop: HOGRIDER,28
+Troop: GIANT,30
+Troop: WALLBREAKER,25
+Troop: WALLBREAKER,25
+#------------------------------------
+[TH4BATTLE2]
+WaveSizes: 3,2
+Troop: MINION,38
+Troop: HOGRIDER,38
+Troop: GIANT,40
+Troop: WALLBREAKER,35
+Troop: WALLBREAKER,35
+#------------------------------------
+[TH4BATTLE3]
+WaveSizes: 3,2
+Troop: MINION,48
+Troop: HOGRIDER,48
+Troop: GIANT,45
+Troop: WALLBREAKER,45
+Troop: WALLBREAKER,45
+#------------------------------------
+[TH5BATTLE1]
+WaveSizes: 3,2
+Troop: GIANT,30
+Troop: WIZARD,32
+Troop: BALLOON,32
+Troop: SUPERARCHER,37
+Troop: WIZARD,32
+#------------------------------------
+[TH5BATTLE2]
+WaveSizes: 3,3
+Troop: GIANT,40
+Troop: WIZARD,42
+Troop: BALLOON,42
+Troop: VALKYRIE,45
+Troop: SUPERARCHER,48
+Troop: WIZARD,47
+#------------------------------------
+[TH5BATTLE3]
+WaveSizes: 3,3
+Troop: GIANT,58
+Troop: WIZARD,42
+Troop: BALLOON,48
+Troop: VALKYRIE,55
+Troop: SUPERARCHER,58
+Troop: WIZARD,57
+#------------------------------------
+[TH6BATTLE1]
+WaveSizes: 3,3
+Troop: GIANT,45
+Troop: ICEWIZARD,45
+Troop: BALLOON,48
+Troop: VALKYRIE,45
+Troop: SUPERARCHER,48
+Troop: ICEWIZARD,50
+#------------------------------------
+[TH6BATTLE2]
+WaveSizes: 3,3
+Troop: GIANT,58
+Troop: ICEWIZARD,55
+Troop: BALLOON,62
+Troop: VALKYRIE,55
+Troop: SUPERARCHER,58
+Troop: ICEWIZARD,60
+#------------------------------------
+[TH6BATTLE3]
+WaveSizes: 3,3
+Troop: GIANT,68
+Troop: ICEWIZARD,65
+Troop: BALLOON,72
+Troop: VALKYRIE,65
+Troop: SUPERARCHER,68
+Troop: ICEWIZARD,70
+#------------------------------------
+[TH7BATTLE1]
+WaveSizes: 3,3
+Troop: GIANT,58
+Troop: HEALER,58
+Troop: BABYDRAGON,55
+Troop: HOGRIDER,55
+Troop: DRAGON,60
+Troop: HEALER,58
+#------------------------------------
+[TH7BATTLE2]
+WaveSizes: 3,3
+Troop: GIANT,68
+Troop: HEALER,68
+Troop: BABYDRAGON,65
+Troop: HOGRIDER,65
+Troop: DRAGON,70
+Troop: HEALER,68
+#------------------------------------
+[TH7BATTLE3]
+WaveSizes: 3,3
+Troop: GIANT,78
+Troop: HEALER,75
+Troop: BABYDRAGON,75
+Troop: HOGRIDER,75
+Troop: DRAGON,80
+Troop: HEALER,78
+#------------------------------------
+[TH8BATTLE1]
+WaveSizes: 3,3
+Troop: GIANT,68
+Troop: HOGRIDER,65
+Troop: VALKYRIE,65
+Troop: PEKKA,70
+Troop: GOLEM,70
+Troop: HEALER,68
+#------------------------------------
+[TH8BATTLE2]
+WaveSizes: 3,3
+Troop: GIANT,78
+Troop: HOGRIDER,75
+Troop: VALKYRIE,75
+Troop: PEKKA,80
+Troop: GOLEM,80
+Troop: HEALER,75
+#------------------------------------
+[TH8BATTLE3]
+WaveSizes: 3,3
+Troop: GIANT,88
+Troop: HOGRIDER,85
+Troop: VALKYRIE,85
+Troop: PEKKA,90
+Troop: GOLEM,90
+Troop: HEALER,92
+#------------------------------------
+[TH9BATTLE1]
+WaveSizes: 3,3
+Troop: HEALER,75
+Troop: HOGRIDER,75
+Troop: SUPERWALLBREAKER,75
+Troop: MINER,78
+Troop: GOLEM,80
+Troop: WITCH,78
+#------------------------------------
+[TH9BATTLE2]
+WaveSizes: 3,3
+Troop: HEALER,92
+Troop: HOGRIDER,85
+Troop: SUPERWALLBREAKER,88
+Troop: MINER,88
+Troop: GOLEM,90
+Troop: WITCH,92
+#------------------------------------
+[TH9BATTLE3]
+WaveSizes: 3,3
+Troop: HEALER,105
+Troop: HOGRIDER,95
+Troop: SUPERWALLBREAKER,100
+Troop: SUPERMINER,94
+Troop: GOLEM,105
+Troop: WITCH,102
+#------------------------------------
+[TH10BATTLE1]
+WaveSizes: 3,2,2
+Troop: BALLOON,82
+Troop: SUPERWIZARD,82
+Troop: BALLOON,82
+Troop: BABYDRAGON,85
+Troop: DRAGON,88
+Troop: SUPERWALLBREAKER,88
+Troop: LAVAHOUND,90
+#------------------------------------
+[TH10BATTLE2]
+WaveSizes: 3,2,2
+Troop: ROCKETBALLOON,92
+Troop: SUPERWIZARD,92
+Troop: ROCKETBALLOON,92
+Troop: BABYDRAGON,95
+Troop: DRAGON,98
+Troop: SUPERWALLBREAKER,100
+Troop: LAVAHOUND,100
+#------------------------------------
+[TH10BATTLE3]
+WaveSizes: 3,2,2
+Troop: ROCKETBALLOON,102
+Troop: SUPERWIZARD,102
+Troop: ROCKETBALLOON,102
+Troop: BABYDRAGON,105
+Troop: DRAGON,108
+Troop: SUPERWALLBREAKER,115
+Troop: LAVAHOUND,110
+#------------------------------------
+[TH11BATTLE1]
+WaveSizes: 3,2,3
+Troop: HEALER,92
+Troop: BOWLER,92
+Troop: GOLEM,95
+Troop: DRAGON,95
+Troop: EDRAG,98
+Troop: HEADHUNTER,98
+Troop: PEKKA,100
+Troop: HEADHUNTER,98
+#------------------------------------
+[TH11BATTLE2]
+WaveSizes: 3,2,3
+Troop: HEALER,105
+Troop: BOWLER,102
+Troop: GOLEM,105
+Troop: DRAGON,108
+Troop: EDRAG,108
+Troop: HEADHUNTER,108
+Troop: PEKKA,110
+Troop: HEADHUNTER,108
+#------------------------------------
+[TH11BATTLE3]
+WaveSizes: 3,2,3
+Troop: HEALER,115
+Troop: BOWLER,108
+Troop: GOLEM,115
+Troop: DRAGON,118
+Troop: EDRAG,118
+Troop: HEADHUNTER,118
+Troop: PEKKA,120
+Troop: HEADHUNTER,118
+#------------------------------------
+[TH12BATTLE1]
+WaveSizes: 2,3,2
+Troop: SUPERWIZARD,102
+Troop: GOBLIN,102
+Troop: HEALER,105
+Troop: PEKKA,108
+Troop: HEADHUNTER,105
+Troop: ETITAN,110
+Troop: EDRAG,108
+#------------------------------------
+[TH12BATTLE2]
+WaveSizes: 2,3,2
+Troop: SUPERWIZARD,112
+Troop: GOBLIN,112
+Troop: HEALER,115
+Troop: PEKKA,120
+Troop: HEADHUNTER,115
+Troop: ETITAN,120
+Troop: EDRAG,128
+#------------------------------------
+[TH12BATTLE3]
+WaveSizes: 2,3,2
+Troop: SUPERWIZARD,122
+Troop: GOBLIN,122
+Troop: HEALER,125
+Troop: PEKKA,130
+Troop: HEADHUNTER,125
+Troop: ETITAN,130
+Troop: EDRAG,128
+#------------------------------------
+[TH13BATTLE1]
+WaveSizes: 2,3,3
+Troop: SUPERMINER,112
+Troop: GOBLIN,112
+Troop: APPRENTICEWARDEN,115
+Troop: LAVAHOUND,118
+Troop: SUPERWALLBREAKER,115
+Troop: ICEGOLEM,118
+Troop: PEKKA,120
+Troop: ICEWIZARD,118
+#------------------------------------
+[TH13BATTLE2]
+WaveSizes: 2,3,3
+Troop: SUPERMINER,122
+Troop: GOBLIN,122
+Troop: APPRENTICEWARDEN,122
+Troop: LAVAHOUND,128
+Troop: SUPERWALLBREAKER,125
+Troop: ICEGOLEM,128
+Troop: PEKKA,130
+Troop: ICEWIZARD,128
+#------------------------------------
+[TH13BATTLE3]
+WaveSizes: 2,3,3
+Troop: SUPERMINER,132
+Troop: GOBLIN,130
+Troop: APPRENTICEWARDEN,132
+Troop: LAVAHOUND,138
+Troop: SUPERWALLBREAKER,135
+Troop: ICEGOLEM,138
+Troop: PEKKA,140
+Troop: ICEWIZARD,138
+#------------------------------------
+[TH14BATTLE1]
+WaveSizes: 3,3,3
+Troop: ROCKETBALLOON,122
+Troop: APPRENTICEWARDEN,122
+Troop: ROCKETBALLOON,122
+Troop: INFERNODRAGON,125
+Troop: LAVAHOUND,128
+Troop: INFERNODRAGON,125
+Troop: SUPERDRAGON,128
+Troop: DRAGONRIDER,130
+Troop: SUPERDRAGON,128
+#------------------------------------
+[TH14BATTLE2]
+WaveSizes: 3,3,3
+Troop: ROCKETBALLOON,132
+Troop: APPRENTICEWARDEN,132
+Troop: ROCKETBALLOON,132
+Troop: INFERNODRAGON,135
+Troop: LAVAHOUND,138
+Troop: INFERNODRAGON,135
+Troop: SUPERDRAGON,138
+Troop: DRAGONRIDER,140
+Troop: SUPERDRAGON,138
+#------------------------------------
+[TH14BATTLE3]
+WaveSizes: 3,3,3
+Troop: ROCKETBALLOON,142
+Troop: APPRENTICEWARDEN,140
+Troop: ROCKETBALLOON,142
+Troop: INFERNODRAGON,145
+Troop: LAVAHOUND,148
+Troop: INFERNODRAGON,145
+Troop: SUPERDRAGON,148
+Troop: DRAGONRIDER,150
+Troop: SUPERDRAGON,148
+#------------------------------------
+[TH15BATTLE1]
+WaveSizes: 3,3
+Troop: PEKKA,140
+Troop: APPRENTICEWARDEN,140
+Troop: PEKKA,140
+Troop: SUPERWALLBREAKER,150
+Troop: MOMMA,150
+Troop: APPRENTICEWARDEN,150
+#------------------------------------
+[TH15BATTLE2]
+WaveSizes: 3,3
+Troop: PEKKA,150
+Troop: APPRENTICEWARDEN,150
+Troop: PEKKA,150
+Troop: SUPERWALLBREAKER,150
+Troop: MOMMA,175
+Troop: APPRENTICEWARDEN,170
+#------------------------------------
+[TH15BATTLE3]
+WaveSizes: 3,3
+Troop: PEKKA,170
+Troop: APPRENTICEWARDEN,160
+Troop: PEKKA,170
+Troop: SUPERWALLBREAKER,150
+Troop: MOMMA,200
+Troop: APPRENTICEWARDEN,180
+

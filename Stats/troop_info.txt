@@ -1,0 +1,419 @@
+# int_name,display_name,ability,attacks,
+# weaknesses,resistances,shield,flying,desc,evo
+#------------------------------------
+# Player
+#------------------------------------
+IntName: BARBARIAN
+Name: Barbarian
+Ability: RAGE
+Moves: SLASH
+Weaknesses: 
+Resistances: 
+Shield: 0
+Flying: false
+Description: This fearless warrior relies on his bulging muscles and striking mustache to wreak havoc in enemy villages.
+Evolution: SUPERBARBARIAN,5,7500
+# Troop, th req, cost (de)
+#------------------------------------
+IntName: SUPERBARBARIAN
+Name: Super Barbarian
+Ability: RAGE2
+Moves: SUPERSLASH
+Weaknesses: 
+Resistances: 
+Shield: 0
+Flying: false
+Description: Superior in health, power, speed and most importantly, hair, the Super Barbarians are what regular Barbarians dream of becoming!
+Evolution: BARBARIANKING,10,50000
+#------------------------------------
+IntName: BARBARIANKING
+Name: Barbarian King
+Ability: IRONFIST
+Moves: SUPERSLASH
+Weaknesses: 
+Resistances: 
+Shield: 0
+Flying: false
+Description: This colossal menace soaks up huge amounts of damage and bashes anything in his path. He guards his territory fiercely when defending, and can launch into a devastating rage when attacking once his Iron Fist ability is unlocked!
+#------------------------------------
+# Powers
+#------------------------------------
+IntName: ARCHER
+Name: Archer
+Ability: 
+Moves: WINDLASS
+Weaknesses: PHYSICAL,ICE
+Resistances: 
+Shield: 2
+Flying: false
+Description: This sharpshooter likes to keep their distance on the battlefield and in life. Nothing makes it happier than single-mindedly taking down their target.
+#------------------------------------
+IntName: WALLBREAKER
+Name: Wall Breaker
+Ability: FAREWELLGIFT
+Moves: EXPLOSION
+Weaknesses: HOLY,ICE
+Resistances: FIRE
+Shield: 1
+Flying: false
+Description: Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. They're good for shield breaking, and they will do it with a BANG!
+#------------------------------------
+IntName: WIZARD
+Name: Wizard
+Ability: 
+Moves: FIREBALL
+Weaknesses: PHYSICAL
+Resistances: FIRE
+Shield: 2
+Flying: false
+Description: The Wizard is a terrifying presence on the battlefield. He'll cast concentrated blasts of destruction on anything, land or sky!
+#------------------------------------
+IntName: ICEWIZARD
+Name: Ice Wizard
+Ability:
+Moves: ICESHARD,DISSOCIATIONBEAM
+Weaknesses: PHYSICAL,FIRE
+Resistances: ICE
+Shield: 2
+Flying: false
+Description: This Legendary wizard slows down enemies with destructive shards of ice!
+#------------------------------------
+IntName: HEALER
+Name: Healer
+Ability: 
+Moves: HEALPULSE,HOLYBEAM
+Weaknesses: WIND
+Resistances: ICE,LIGHTNING
+Shield: 3
+Flying: true
+Description: This majestic creature lives to protect and aid her fellow troops. Any army is improved with her healing support, but make sure to protect her!
+#------------------------------------
+IntName: DRAGONRIDER
+Name: Dragon Rider
+Ability: CRASHANDBURN
+Moves: FIREBLAST,KAMIKAZE
+Weaknesses: ICE,LIGHTNING,HOLY
+Resistances: FIRE,ICE
+Shield: 3
+Flying: true
+Description: This aerial engine of destruction readily and frankly, quite excitedly lays waste to any defense it comes across. The skeleton onboard swears he's not touching the controls.
+#------------------------------------
+IntName: HEADHUNTER
+Name: Headhunter
+Ability:
+Moves: DISCARD
+Weaknesses: HOLY,LIGHTNING
+Resistances: DARK
+Shield: 2
+Flying: false
+Description: Headhunter has just one job, taking out enemy heroes. As her other job, she works at the village apothecary. She's lightweight enough to jump over walls and her poisoned weapons make her targets move and attack slower.
+#------------------------------------
+IntName: APPRENTICEWARDEN
+Name: Apprentice Warden
+Ability: LIFEAURA
+Moves: HOLYBEAM
+Weaknesses: DARK,PHYSICAL
+Resistances: HOLY
+Shield: 2
+Flying: false
+Description: Despite his grand ambitions, Apprentice Warden is still just a student. Supports troops with his magical Life Aura and less-magical slingshot.
+#------------------------------------
+# Super Powers
+#------------------------------------
+IntName: SUPERARCHER
+Name: Super Archer
+Ability: 
+Moves: WINDLASS
+Weaknesses: PHYSICAL,ICE
+Resistances: 
+Shield: 3
+Flying: false
+Description: This sharpshooter likes to keep their distance on the battlefield and in life. Nothing makes it happier than single-mindedly taking down their target.
+#------------------------------------
+IntName: SUPERWALLBREAKER
+Name: Super Wall Breaker
+Ability: FAREWELLGIFT
+Moves: EXPLOSION
+Weaknesses: HOLY,ICE
+Resistances: FIRE
+Shield: 2
+Flying: false
+Description: Nothing warms a Wall Breaker's cold and undead heart like blowing up walls. They're good for shield breaking, and they will do it with a BANG!
+#------------------------------------
+IntName: SUPERWIZARD
+Name: Super Wizard
+Ability: PYROKINETIC
+Moves: FIRECHAIN
+Weaknesses: PHYSICAL,DARK
+Resistances: FIRE
+Shield: 3
+Flying: false
+Description: Super Wizard is positively charged with magical energy! He's either the smartest person in the room... or else he blows the whole room to bits.
+#------------------------------------
+IntName: SUPERMINER
+Name: Super Miner
+Ability: FAREWELLGIFT
+Moves: DRILLBLASTER
+Weaknesses: ICE,WIND
+Resistances: GEO
+Shield: 4
+Flying: false
+Description: Armed with a powerful drill and a magnificent moustache, Super Miner is ready to undermine any rival!
+#------------------------------------
+# Enemy Troops (Elixir)
+#------------------------------------
+IntName: GIANT
+Name: Giant
+Ability: 
+Moves: SLAP,EARTHQUAKEPUNCH
+Weaknesses: WIND,PHYSICAL,FIRE
+Resistances: GEO
+Shield: 3
+Flying: false
+Description: These big guys may seem calm, but show them a turret or cannon and you'll see their fury unleashed! Slow yet durable, these warriors are best used to soak up hits.
+#------------------------------------
+IntName: GOBLIN
+Name: Goblin
+Ability: 
+Moves: GOLDRUSH,PAYDAY
+Weaknesses: PHYSICAL
+Resistances: 
+Shield: 1
+Flying: false
+Description: These pesky little creatures only have eyes for one thing, LOOT! They are faster than anything, and their hunger for resources is limitless.
+#------------------------------------
+IntName: BALLOON
+Name: Balloon
+Ability: BALLOONPARADE
+Moves: PARADE,BALLOONSTORM
+Weaknesses: WIND,LIGHTNING,HOLY
+Resistances: 
+Shield: 2
+Flying: true
+Description: These promoted skeletons have traded in their joy of destroying walls for a joy of destroying defenses.
+#------------------------------------
+IntName: BABYDRAGON
+Name: Baby Dragon
+Ability: TANTRUM
+Moves: FLAMEBREATH
+Weaknesses: DARK,LIGHTNING
+Resistances: FIRE
+Shield: 3
+Flying: true
+Description: This fire-breathing hatchling is shy around other air units, but leave it alone and it will throw a fit! When not around other air units, Baby Dragons become enraged and gain bonus damage and attack speed.
+#------------------------------------
+IntName: MINER
+Name: Miner
+Ability:
+Moves: SHOVELATTACK,DRILLUP
+Weaknesses: ICE,WIND
+Resistances: GEO
+Shield: 2
+Flying: false
+Description: These sneaky shovelers burrow underground, pass beneath walls, and pop up right next to their targets.
+#------------------------------------
+IntName: YETI
+Name: Yeti
+Ability: YETIMITECOUNTER
+Moves: FROSTYHUG,ICESMASHER
+Weaknesses: FIRE,GEO
+Resistances: ICE
+Shield: 3
+Flying: false
+Description: The heavy-hitting furry fellow digs cold weather and his Yetimite buddies. Hurt him, and you'll make the Yetimites real angry.
+#------------------------------------
+# Enemy Troops (Dark Elixir)
+#------------------------------------
+IntName: MINION
+Name: Minion
+Ability: 
+Moves: DARKSHOT
+Weaknesses: HOLY
+Resistances: WIND
+Shield: 1
+Flying: true
+Description: This terror of the skies was born out of Dark Elixir. Undetectable by the Seeking Air Mine, Minions materialize with ease, but are fragile in our world.
+#------------------------------------
+IntName: HOGRIDER
+Name: Hog Rider
+Ability: 
+Moves: RECKLESSCHARGE,MALLETSTRIKE
+Weaknesses: WIND,FIRE
+Resistances: GEO
+Shield: 2
+Flying: false
+Description: Having tamed the fierce leaping hog, the Hog Rider punishes those who hide behind their puny walls! Fueled by Dark Elixir, these warriors have never known defeat!
+#------------------------------------
+IntName: VALKYRIE
+Name: Valkyrie
+Ability: 
+Moves: WHIRLWINDBLOW,AXECHOP
+Weaknesses: GEO,FIRE
+Resistances: 
+Shield: 2
+Flying: false
+Description: A master of the two-handed axe, this glorious warrior runs between nearby buildings and can shred several troops or buildings at once with her whirlwind blow!
+#------------------------------------
+IntName: GOLEMITE
+Name: Golemite
+Ability: 
+Moves: ROCKSMASH
+Weaknesses: WIND
+Resistances: 
+Shield: 2
+Flying: false
+Description: Golemites are smaller Golems constructed within the gargantuan creature. When the Golem is destroyed, the Golemites spring to life and keep fighting!
+#------------------------------------
+IntName: WITCH
+Name: Witch
+Ability: NECROMANCER
+Moves: NECROBEAM,SKELETONMARCH
+Weaknesses: HOLY,LIGHTNING
+Resistances: DARK
+Shield: 3
+Flying: false
+Description: The Witch never fights alone, constantly raising dead warriors from past battles to lead her attacks.
+#------------------------------------
+IntName: SKELETON
+Name: Skeleton
+Ability: 
+Moves: SLASH
+Weaknesses: HOLY,LIGHTNING
+Resistances: 
+Shield: 1
+Flying: false
+Description: This undead creature poses little threat by itself. But it never fights alone, since the Witch can summon an endless horde of Skeletons against your enemy!
+#------------------------------------
+IntName: LAVAPUP
+Name: Lava Pup
+Ability: 
+Moves: FIRESPIT
+Weaknesses: ICE,DARK
+Resistances: 
+Shield: 1
+Flying: true
+Description: Thrust out in big numbers after a Lava Hound dies, these tiny creatures keep up the fight for a little while longer.
+#------------------------------------
+IntName: BOWLER
+Name: Bowler
+Ability: DOUBLESTRIKE
+Moves: ROCKTHROW
+Weaknesses: PHYSICAL,ICE
+Resistances: GEO
+Shield: 3
+Flying: false
+Description: This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders bounce off their targets and hit again behind it for a double strike!
+#------------------------------------
+IntName: ICEGOLEM
+Name: Ice Golem
+Ability: FREEZEBLAST
+Moves: ICYTOUCH
+Weaknesses: FIRE,PHYSICAL,GEO
+Resistances: ICE
+Shield: 3
+Flying: false
+Description: The Ice Golem has a chilling personality and absolutely zero sense of humour. He frosts over everything he touches, freezes his surroundings when destroyed and ices up when talked to at a party.
+#------------------------------------
+# Super Troops
+#------------------------------------
+IntName: ROCKETBALLOON
+Name: Rocket Balloon
+Ability: ROCKETTHRUSTERS
+Moves: PARADE,BALLOONSTORM
+Weaknesses: LIGHTNING,HOLY
+Resistances: FIRE
+Shield: 3
+Flying: true
+Description: Retrofitted with two carefully safety-inspected booster rockets, the Rocket Balloon gets a flying start to every battle!
+#------------------------------------
+IntName: INFERNODRAGON
+Name: Inferno Dragon
+Ability: RAMPUP
+Moves: LASERBEAM
+Weaknesses: DARK,LIGHTNING
+Resistances: FIRE,ICE
+Shield: 3
+Flying: true
+Description: Not getting upset over being alone anymore, the Inferno Dragon has learned to focus its rage into a very powerful beam that builds up over time!
+#------------------------------------
+IntName: SUPERDRAGON
+Name: Super Dragon
+Ability: 
+Moves: ROAST,HURRICANE
+Weaknesses: DARK,LIGHTNING,PHYSICAL
+Resistances: FIRE,ICE
+Shield: 6
+Flying: true
+Description: Sometimes having a fire inside of you isn't enough. The Super Dragon has fires on the inside, outside, and if he gets to do his thing, all around him!
+#------------------------------------
+# Bosses
+#------------------------------------
+IntName: DRAGON
+Name: Dragon
+Ability: 
+Moves: FLAMETHROWER,WINGBLAST
+Weaknesses: DARK,LIGHTNING,PHYSICAL
+Resistances: FIRE,ICE
+Shield: 4
+Flying: true
+Description: The might of the dragons are known throughout the land. This scaly terror of the skies feels no mercy and nothing will escape the fiery splashes of his breath.
+#------------------------------------
+IntName: PEKKA
+Name: P.E.K.K.A
+Ability: 
+Moves: CHOP,ONIGIRI
+Weaknesses: FIRE,WIND,DARK
+Resistances: ICE,PHYSICAL,GEO
+Shield: 4
+Flying: false
+Description: Is P.E.K.K.A a knight? A samurai? A robot? No one knows! P.E.K.K.A's armor absorbs even the mightiest of blows.
+#------------------------------------
+IntName: GOLEM
+Name: Golem
+Ability: SPLITAPART
+Moves: ROCKHAMMER,ROCKSHIELD
+Weaknesses: WIND
+Resistances: PHYSICAL,LIGHTNING,FIRE
+Shield: 6
+Flying: false
+Description: The mighty Golem loves to soak up damage! When destroyed, it explodes and splits into Golemites. The resulting Golemites have one-fifth the Golem's strength and hitpoints.
+#------------------------------------
+IntName: LAVAHOUND
+Name: Lava Hound
+Ability: LAVAREPUPDUCTION
+Moves: FIRESPIT
+Weaknesses: ICE,DARK
+Resistances: FIRE,PHYSICAL,LIGHTNING
+Shield: 10
+Flying: true
+Description: These fiery beasts can't resist chasing after Air Defenses, providing excellent protection for other troops. Once destroyed, they erupt into many smaller, weaker menaces.
+#------------------------------------
+IntName: EDRAG
+Name: Electro Dragon
+Ability: LIGHTNINGBURST
+Moves: LIGHTNINGBLAST,WINGBLAST
+Weaknesses: ICE,DARK,PHYSICAL
+Resistances: LIGHTNING
+Shield: 5
+Flying: true
+Description: Possessing iron-tough scales and a breath of devastating lightning, the Electro Dragon's favorite thing is raining destruction from above. When vanquished, the Electro Dragon even pummels the ground with lightning strikes!
+#------------------------------------
+IntName: ETITAN
+Name: Electro Titan
+Ability: REPULSIONFIELD
+Moves: LIGHTNINGWHIP,THUNDERSTOMP
+Weaknesses: PHYSICAL,GEO,ICE
+Resistances: LIGHTNING,FIRE
+Shield: 6
+Flying: false
+Description: Barely controlling her raw magical power, the Electro Titan is a formidable force on the battlefield. She channels some of her magic into a powerful electro whip while the rest spills out to damage everything around her.
+#------------------------------------
+IntName: MOMMA
+Name: M.O.M.M.A
+Ability: 
+Moves: SUPERSLASH
+Weaknesses: PHYSICAL
+Resistances: 
+Shield: 10
+Flying: false
+Description: Destruction destruction destruction

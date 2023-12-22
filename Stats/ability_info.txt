@@ -1,0 +1,21 @@
+# int_name,display_name,description
+# Barbarian Abilities
+RAGE,Rage,BattleStart,For the first few turns of the battle, the troop is raged.
+RAGE2,Rage,BattleStart,For the first few turns of the battle, the troop is raged.
+IRONFIST,Iron Fist,TakeDamage,When the troop's HP reaches 50% or lower, it will become raged and restore some HP.
+# Other Abilities
+BALLOONPARADE,Balloon Parade,None,The more Balloons, the more damage dealt by the troop's attacks.
+CRASHANDBURN,Crash and Burn,OnFainting,Deals damage when the troop faints.
+DOUBLESTRIKE,Double Strike,None,The troop's attacks will hit twice.
+FAREWELLGIFT,Farewell Gift,OnFainting,Deals damage when the troop faints.
+FREEZEBLAST,Freeze Blast,OnFainting,The troop freezes its enemies upon defeat.
+LAVAREPUPDUCTION,Lava Repupduction,TurnStart,The troop spawns Lava Pups every turn.
+LIFEAURA,Life Aura,BattleStart,The troop's allies have boosted HP.
+LIGHTNINGBURST,Lightning Burst,AttackEnd,The troop heals some HP at the end of its attack.
+NECROMANCER,Necromancer,TurnStart,Spawns Skeletons every 2 turns.
+PYROKINETIC,Pyrokinetic,None,Deals double damage to burned enemies.
+RAMPUP,Ramp Up,TurnStart,The troop's attack increases as the battle continues.
+REPULSIONFIELD,Repulsion Field,AttackEnd,The troop deals additional damage at the end of its attack.
+ROCKETTHRUSTERS,Rocket Thrusters,BattleStart,The troop's speed is greatly increased for the for 2 turns of the battle.
+SPLITAPART,Split Apart,OnFainting,The troop splits into Golemites upon defeat.
+TANTRUM,Tantrum,None,The troop deals more damage when by itself.

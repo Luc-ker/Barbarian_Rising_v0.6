@@ -1,0 +1,108 @@
+# id,internal name,display name,weapon type,stats affected,description
+#------------------------------------
+ID: 101
+IntName: WOODENSWORD
+Name: Wooden Sword
+Type: sword
+Stats: attack
+TH_available: 3
+Description: A wooden sword which boosts attack by {percent}.
+#------------------------------------
+ID: 102
+IntName: STONESWORD
+Name: Stone Sword
+Type: sword
+Stats: attack,damage_mult
+TH_available: 5
+Description: An stone sword which boosts attack and damage by {percent} respectively.
+#------------------------------------
+ID: 103
+IntName: IRONSWORD
+Name: Iron Sword
+Type: sword
+Stats: attack,damage_mult
+TH_available: 8
+Description: An iron sword which boosts attack and damage by {percent} respectively.
+#------------------------------------
+ID: 104
+IntName: GOLDSWORD
+Name: Gold Sword
+Type: sword
+Stats: attack,damage_mult
+TH_available: 10
+Description: A sword made from pure gold which boosts attack and damage by {percent} respectively.
+#------------------------------------
+ID: 105
+IntName: DIAMONDSWORD
+Name: Diamond Sword
+Type: sword
+Stats: attack,damage_mult,crit_rate
+TH_available: 13
+Description: A diamond sword which boosts attack, damage and crit rate by {percent} respectively.
+#------------------------------------
+ID: 106
+IntName: RAINBOWSWORD
+Name: Rainbow Sword
+Type: sword
+Stats: attack,damage_mult,crit_rate
+TH_available: 15
+Description: A rainbow sword said to hold the power of all elements. It boosts attack, damage and crit rate by {percent} respectively.
+#------------------------------------
+# A sword for every element
+#------------------------------------
+ID: 201
+IntName: WOODENSHIELD
+Name: Wooden Shield
+Type: shield
+Stats: defence
+TH_available: 3
+Description: A wooden shield which boosts defence by {percent}.
+#------------------------------------
+ID: 202
+IntName: MEATSHIELD
+Name: Meat Shield
+Type: shield
+TH_available: 6
+Stats: defence,damage_reduction
+Description: A shield made from the meat of... something. It boosts defence and reduces damage by {percent} respectively.
+#------------------------------------
+ID: 203
+IntName: IRONSHIELD
+Name: Iron Shield
+Type: shield
+Stats: defence,damage_reduction
+TH_available: 8
+Description: An iron shield which boosts defence and reduces damage by {percent} respectively.
+#------------------------------------
+ID: 204
+IntName: GOLDSHIELD
+Name: Gold Shield
+Type: shield
+Stats: defence,damage_reduction
+TH_available: 10
+Description: A shield made from pure gold which boosts defence and reduces damage by {percent} respectively.
+#------------------------------------
+ID: 205
+IntName: EMERALDSHIELD
+Name: Emerald Shield
+Type: shield
+Stats: defence,damage_reduction
+TH_available: 13
+Description: An emerald shield which boosts defence and reduces damage by {percent} respectively.
+#------------------------------------
+ID: 206
+IntName: FROZENSHIELD
+Name: Frozen Shield
+Type: shield
+Stats: defence,damage_reduction,crit_rate
+TH_available: 15
+Description: A shield made from never-melt ice. It boosts defence, reduces damage and increases crit rate by {percent} respectively.
+#------------------------------------
+ID: 999
+IntName: LONSDALEITESWORD
+Name: Lonsdaleite Sword
+Type: sword
+TH_available: 100
+Stats: attack,damage_mult,crit_rate
+Description: A legendary sword said to hold great power.
+#------------------------------------

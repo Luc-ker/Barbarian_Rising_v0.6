@@ -1,0 +1,683 @@
+# internal name,display name,element,power,target,effect code,effect chance,effect turns,flags,shield dmg,description
+#------------------------------------
+# Effect Code
+# 000 - No effect
+# IncreaseUserSpd10 - Increase user's speed by 10%
+# LowerTargetDef10 - Lower target's defense by 10%
+# SelfKO - KOes the user
+# BurnTarget - Burns the target
+# FreezeTarget - Freezes the target
+# RecoilAttack - User takes recoil damage
+# Heal Ally - Heals an ally
+#------------------------------------
+# Properties
+# f = attacks flying enemies
+# h = healing attaack
+# r = recoil damage
+#------------------------------------
+# Barb Attacks
+#------------------------------------
+IntName: SLASH
+Name: Slash
+Element: PHYSICAL
+Power: 50
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 1
+Description: The user slashes the target.
+#------------------------------------
+IntName: SUPERSLASH
+Name: Super Slash
+Element: PHYSICAL
+Power: 90
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user slashes the target even harder.
+#------------------------------------
+IntName: UPPERSLASH
+Name: Upper Slash
+Element: PHYSICAL
+Power: 75
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user performs an uppercut that can slash flying targets.
+#------------------------------------
+IntName: QUICKSLASH
+Name: Quick Slash
+Element: PHYSICAL
+Power: 40
+Target: SingleTarget
+EffectCode: IncreaseUserSpd10
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 1
+Description: The user slashes the target and increases its speed.
+#------------------------------------
+IntName: THUNDERSLASH
+Name: Thunder Slash
+Element: LIGHTNING
+Power: 70
+Target: SingleTarget
+EffectCode: ParalyseTarget
+EffectChance: 30
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: A slash with a 30% chance to paralyse the target.
+#------------------------------------
+IntName: SACREDSLASH
+Name: Sacred Slash
+Element: HOLY
+Power: 80
+Target: SingleTarget
+EffectCode: IncreaseUserDmgReduction20
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: A slash imbued which reduces damage taken.
+#------------------------------------
+IntName: WINDSLASH
+Name: Wind Slash
+Element: WIND
+Power: 80
+Target: SingleTarget
+EffectCode: DelayTarget20
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: A slash which uses the wind to delay the target.
+#------------------------------------
+IntName: BURNSLASH
+Name: Burn Slash
+Element: FIRE
+Power: 70
+Target: SingleTarget
+EffectCode: BurnTarget
+EffectChance: 30
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: A slash with a 30% chance to burn the target.
+#------------------------------------
+IntName: FROSTSLASH
+Name: Frost Slash
+Element: ICE
+Power: 60
+Target: SingleTarget
+EffectCode: FreezeTarget
+EffectChance: 30
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: A slash with a 30% chance to freeze the target.
+#------------------------------------
+IntName: DARKSLASH
+Name: Dark Slash
+Element: DARK
+Power: 60
+Target: SingleTarget
+EffectCode: LowerTargetDef30
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: A slash which decreases the target's defence by 30%.
+#------------------------------------
+# Physical
+#------------------------------------
+IntName: AXECHOP
+Name: Axe Chop
+Element: PHYSICAL
+Power: 70
+Target: SingleTarget
+EffectCode: LowerTargetDef30
+EffectChance: 0
+EffectTurns: 3
+Flags: 
+ShieldDamage: 2
+Description: The user uses its axe to chop the target, lowering its defence.
+#------------------------------------
+IntName: CHOP
+Name: Chop
+Element: PHYSICAL
+Power: 90
+Target: SingleTarget
+EffectCode: LowerTargetDef30
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: The user uses its katana to chop the target, lowering its defence.
+#------------------------------------
+IntName: EARTHQUAKEPUNCH
+Name: Earthquake Punch
+Element: PHYSICAL
+Power: 60
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 1
+Description: The user punches the ground, causing an earthquake.
+#------------------------------------
+IntName: ONIGIRI
+Name: Onigiri
+Element: PHYSICAL
+Power: 90
+Target: SingleTarget
+EffectCode: IncreaseUserSpd20
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: The user performs an onigiri on the target, raising its speed.
+#------------------------------------
+IntName: SHOVELATTACK
+Name: Shovel Attack
+Element: PHYSICAL
+Power: 80
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 100
+EffectTurns: 2
+Flags: 
+ShieldDamage: 1
+Description: The user attacks its target with a shovel.
+#------------------------------------
+IntName: SLAP
+Name: Slap
+Element: PHYSICAL
+Power: 60
+Target: SingleTarget
+EffectCode: LowerTargetDef10
+EffectChance: 100
+EffectTurns: 2
+Flags: 
+ShieldDamage: 1
+Description: The user slaps the target, lowering its defence.
+#------------------------------------
+# Wind
+#------------------------------------
+IntName: BALLOONSTORM
+Name: Balloon Storm
+Element: WIND
+Power: 70
+Target: AoE
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user rushes past the target, creating a gust to attack the target.
+#------------------------------------
+IntName: GOLDRUSH
+Name: Gold Rush
+Element: WIND
+Power: 40
+Target: SingleTarget
+EffectCode: IncreaseUserSpd10
+EffectChance: 100
+EffectTurns: 2
+Flags: 
+ShieldDamage: 1
+Description: The user attacks, increasing its speed and stealing the target's gold in the process.
+#------------------------------------
+IntName: HURRICANE
+Name: Hurricane
+Element: WIND
+Power: 90
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: The user creates and directs a hurricane at the target.
+#------------------------------------
+IntName: KAMIKAZE
+Name: Kamikaze
+Element: WIND
+Power: 100
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 3
+Description: The user crashes its jet into the target.
+#------------------------------------
+IntName: PAYDAY
+Name: Pay Day
+Element: WIND
+Power: 60
+Target: SingleTarget
+EffectCode: IncreaseUserSpd10
+EffectChance: 100
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: The user scatters gold which explodes and double combos the target.
+#------------------------------------
+IntName: WHIRLWINDBLOW
+Name: Whirlwind Blow
+Element: WIND
+Power: 80
+Target: Blast
+EffectCode: IncreaseUserDmgReduction20
+EffectChance: 0
+EffectTurns: 2
+Flags: 
+ShieldDamage: 2
+Description: The user creates a whirlwind, attacking its target and reducing its damage taken.
+#------------------------------------
+IntName: WINDLASS
+Name: Windlass
+Element: WIND
+Power: 50
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user fires a arrow at the target.
+#------------------------------------
+IntName: WINGBLAST
+Name: Wing Blast
+Element: WIND
+Power: 80
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user blasts wind at its target by flapping its wings.
+#------------------------------------
+# Fire
+#------------------------------------
+IntName: EXPLOSION
+Name: Explosion
+Element: FIRE
+Power: 80
+Target: Blast
+EffectCode: SelfKO
+EffectChance: 100
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user blows itself up to deal major damage.
+#------------------------------------
+IntName: FIREBALL
+Name: Fireball
+Element: FIRE
+Power: 70
+Target: SingleTarget
+EffectCode: BurnTarget
+EffectChance: 100
+EffectTurns: 3
+Flags: f
+ShieldDamage: 2
+Description: The user aims a ball of fire at the target, burning it.
+#------------------------------------
+IntName: FIREBLAST
+Name: Fire Blast
+Element: FIRE
+Power: 100
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: A blast of fire is aimed at the target.
+#------------------------------------
+IntName: FIRECHAIN
+Name: Fire Chain
+Element: FIRE
+Power: 100
+Target: Blast
+EffectCode: BurnTarget
+EffectChance: 100
+EffectTurns: 3
+Flags: f
+ShieldDamage: 2
+Description: The user aims a chain of fire at the target, burning it.
+#------------------------------------
+IntName: FIRESPIT
+Name: Fire Spit
+Element: FIRE
+Power: 50
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 1
+Description: The user spits fire at its target.
+#------------------------------------
+IntName: FLAMEBREATH
+Name: Flame Breath
+Element: FIRE
+Power: 60
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user breaths fire at the target.
+#------------------------------------
+IntName: FLAMETHROWER
+Name: Flamethrower
+Element: FIRE
+Power: 90
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: The user breaths fire at the target.
+#------------------------------------
+IntName: LASERBEAM
+Name: Laser Beam
+Element: FIRE
+Power: 70
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: The user fires a laser beam at the target.
+#------------------------------------
+IntName: PARADE
+Name: Parade
+Element: FIRE
+Power: 70
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user drops bombs onto the target.
+#------------------------------------
+IntName: ROAST
+Name: Roast
+Element: FIRE
+Power: 100
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: The user breaths fire at the target.
+#------------------------------------
+# Ice
+#------------------------------------
+IntName: DISSOCIATIONBEAM
+Name: Dissociation Beam
+Element: ICE
+Power: 50
+Target: SingleTarget
+EffectCode: DoublePowerAgainstFrozen
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user aims a beam of ice at the enemy, which is doubly effective against a frozen target.
+#------------------------------------
+IntName: ICESHARD
+Name: Ice Shard
+Element: ICE
+Power: 40
+Target: SingleTarget
+EffectCode: FreezeTarget
+EffectChance: 30
+EffectTurns: 2
+Flags: f
+ShieldDamage: 1
+Description: The user aims a shard of ice at the target, with a chance of freezing it.
+#------------------------------------
+IntName: ICYTOUCH
+Name: Icy Touch
+Element: ICE
+Power: 10
+Target: SingleTarget
+EffectCode: DelayTarget20
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 1
+Description: The user touches its target, slowing it down.
+#------------------------------------
+# Holy
+#------------------------------------
+IntName: HEALPULSE
+Name: Heal Pulse
+Element: HOLY
+Power: 20
+Target: SingleTarget
+EffectCode: HealAlly
+EffectChance: 0
+EffectTurns: 0
+Flags: f,h
+ShieldDamage: 0
+Description: The user heals an ally.
+#------------------------------------
+IntName: HOLYBEAM
+Name: Holy Beam
+Element: HOLY
+Power: 50
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 2
+Description: The user aims a beam imbued with holy energy at the target.
+#------------------------------------
+# Dark
+#------------------------------------
+IntName: DARKSHOT
+Name: Dark Shot
+Element: DARK
+Power: 40
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 1
+Description: The user throws some dark matter at the target.
+#------------------------------------
+IntName: DISCARD
+Name: Discard
+Element: DARK
+Power: 60
+Target: SingleTarget
+EffectCode: LowerTargetAtk30
+EffectChance: 0
+EffectTurns: 1
+Flags: 3
+ShieldDamage: f
+Description: The user discards a card, reducing the damage dealt by the target.
+#------------------------------------
+IntName: NECROBEAM
+Name: Necro Beam
+Element: DARK
+Power: 60
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 1=2
+Description: The user aims a beam with the power of the undead at its target.
+#------------------------------------
+IntName: SKELETONMARCH
+Name: Skeleton March
+Element: DARK
+Power: 60
+Target: SingleTarget
+EffectCode: SkeletonPowerUp
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user attacks its target with skeletons.
+#------------------------------------
+# Geo
+#------------------------------------
+IntName: DRILLBLASTER
+Name: Drill Blaster
+Element: GEO
+Power: 150
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user burrows up from the ground, blasting its drill to attack the target.
+#------------------------------------
+IntName: DRILLUP
+Name: Drill Up
+Element: GEO
+Power: 60
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user burrows up from the ground, attacking the target with its drill.
+#------------------------------------
+IntName: MALLETSTRIKE
+Name: Mallet Strike
+Element: GEO
+Power: 60
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 1
+Description: The user attacks its target with its mallet.
+#------------------------------------
+IntName: RECKLESSCHARGE
+Name: Reckless Charge
+Element: GEO
+Power: 90
+Target: SingleTarget
+EffectCode: RecoilAttack
+EffectChance: 0
+EffectTurns: 0
+Flags: r
+ShieldDamage: 2
+Description: The user recklessly charges at the target, taking some recoil damage in the process.
+#------------------------------------
+IntName: ROCKHAMMER
+Name: Rock Hammer
+Element: GEO
+Power: 120
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user conjures a rock hammer to attack its target.
+#------------------------------------
+IntName: ROCKSHIELD
+Name: Rock Shield
+Element: GEO
+Power: 120
+Target: SingleTarget
+EffectCode: IncreaseUserDef50
+EffectChance: 0
+EffectTurns: 3
+Flags: 
+ShieldDamage: 2
+Description: The user conjures a rock shield to attack its target and boost its defence.
+#------------------------------------
+IntName: ROCKSMASH
+Name: Rock Smash
+Element: GEO
+Power: 80
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user conjures a rock and smashes it to attack its target.
+#------------------------------------
+IntName: ROCKTHROW
+Name: Rock Throw
+Element: GEO
+Power: 50
+Target: SingleTarget
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 1
+Description: The user throws a rock to attack its target.
+#------------------------------------
+# Lightning
+#------------------------------------
+IntName: LIGHTNINGBLAST
+Name: Lightning Blast
+Element: LIGHTNING
+Power: 100
+Target: Blast
+EffectCode: 000
+EffectChance: 0
+EffectTurns: 0
+Flags: f
+ShieldDamage: 3
+Description: The user attacks its target with its whip with a chance to paralyse its target.
+#------------------------------------
+IntName: LIGHTNINGWHIP
+Name: Lightning Whip
+Element: LIGHTNING
+Power: 90
+Target: SingleTarget
+EffectCode: ParalyseTarget
+EffectChance: 30
+EffectTurns: 2
+Flags: f
+ShieldDamage: 3
+Description: The user attacks its target with its whip with a chance to paralyse its target.
+#------------------------------------
+IntName: THUNDERSTOMP
+Name: Thunder Stomp
+Element: LIGHTNING
+Power: 75
+Target: AoE
+EffectCode: DoublePowerAgainstParalysed
+EffectChance: 0
+EffectTurns: 0
+Flags: 
+ShieldDamage: 2
+Description: The user attacks its target with its whip with a chance to paralyse its target.
+#------------------------------------
