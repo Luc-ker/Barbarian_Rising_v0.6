@@ -104,7 +104,6 @@ class Player():
       self.get_barb_weapon(save_values[23])
     self.barb.calc_stats()
     self.last_login = save_values[24]
-#    self.controls = save_values[19]
     return self
 
   def should_refresh_stamina(self):

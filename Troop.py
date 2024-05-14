@@ -143,10 +143,6 @@ class Troop():
       player.elixir -= stats[1]
       player.gold -= stats[2]
     self.level += levels
-    # if levels == 1:
-    #   print(f"{self.display_name} gained {levels} level!")
-    # else:
-    #   print(f"{self.display_name} gained {levels} levels!")
     self.calc_stats()
 
   def get_upgrade_costs(self, level):
@@ -228,10 +224,6 @@ class Troop():
 
   def can_learn_attack(self):
     return len(self.active_attacks) < self.max_attacks
-
-  def show_attacks(self):
-    for i,x in enumerate(self.active_attacks):
-      print(f"{i+1}: {x.display_name}")
 
   def has_ability(self,ability):
     if self.ability is None:

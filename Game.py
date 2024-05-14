@@ -897,8 +897,7 @@ def shopScreen(player):
           event.obtained = True
           event.buyable = False
         active_screen.draw_events(display)
-        pygame.display.update()        
-  # to do: skins, currency converter?
+        pygame.display.update()
 
 def bossScreen(player):
   display.fill(purple)
@@ -929,7 +928,6 @@ def bossScreen(player):
     else:
       left += size[0]+gap
 
-  # th image added later
   for i in range(3):
     diff_events.insert(0, DiffImage(f"Pictures/Buttons/diff circle {i+1}.png", (20, 80*i+20), i+1, 2))
       

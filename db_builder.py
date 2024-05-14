@@ -1,7 +1,6 @@
 import sqlite3
 import os
 
-
 def add_update():
   if os.path.exists("./Data/times.db"):
     os.remove("./Data/times.db")
@@ -19,7 +18,6 @@ def add_update():
     cursor.execute(sqlInsertCommand)
     connection.commit()
 
-
 def should_update():
   sqlCommand = """SELECT * FROM times;"""
   connection = sqlite3.connect("./Data/times.db")
@@ -33,7 +31,6 @@ def should_update():
       if i == file and x != last_modified:
         return True
   return False
-
 
 def update_troop_stats():
   with open("./Stats/troop_stats.txt", "r") as f1:
@@ -71,7 +68,6 @@ def update_troop_stats():
         connection.commit()
   print("Troop stats databases updated.")
 
-
 def update_barb_costs():
   with open("./Stats/barb_costs.txt", "r") as f1:
     if os.path.exists("./Data/barb_costs.db"):
@@ -99,7 +95,6 @@ def update_barb_costs():
         cursor.execute(sqlInsertCommand)
         connection.commit()
   print("Barb costs databases updated.")
-
 
 def update_attacks():
   with open("./Stats/attacks.txt", "r") as f1:
@@ -167,7 +162,6 @@ def update_attacks():
     connection.commit()
   print("Attack database updated.")
 
-
 def update_weapon_info():
   with open("./Stats/weapon_info.txt", "r") as f1:
     if os.path.exists("./Data/weapon_info.db"):
@@ -220,7 +214,6 @@ def update_weapon_info():
       connection.commit()
   print("Weapon info database updated.")
 
-
 def update_weapon_stats():
   with open("./Stats/weapon_stats.txt", "r") as f1:
     if os.path.exists("./Data/weapon_stats.db"):
@@ -250,7 +243,6 @@ def update_weapon_stats():
         cursor.execute(sqlInsertCommand)
         connection.commit()
   print("Weapon stats databases updated.")
-
 
 def update_troop_info():
   with open("./Stats/troop_info.txt", "r") as f1:
@@ -316,7 +308,6 @@ def update_troop_info():
     cursor.execute(sqlInsertCommand)
     connection.commit()
   print("Troop info database updated.")
-
 
 def update_battles():
   with open("./Stats/battles.txt", "r") as f1:
@@ -406,7 +397,6 @@ def update_battles():
     connection_stats.commit()
   print("Battle databases updated.")
 
-
 def update_abilities():
   with open("./Stats/ability_info.txt", "r") as f1:
     if os.path.exists("./Data/ability_info.db"):
@@ -431,7 +421,6 @@ def update_abilities():
         cursor.execute(sqlInsertCommand)
         connection.commit()
   print("Ability info database updated.")
-
 
 def update_power_info():
   with open("./Stats/power_info.txt", "r") as f1:
@@ -496,7 +485,6 @@ def update_power_info():
       connection.commit()
   print("Power info database updated.")
 
-
 def update_power_stats():
   with open("./Stats/power_stats.txt", "r") as f1:
     if os.path.exists("./Data/power_stats.db"):
@@ -528,13 +516,11 @@ def update_power_stats():
         connection.commit()
   print("Power stats database updated.")
 
-
 def create_player_table():
   if os.path.exists("./Data/player_data.db"):
     os.remove("./Data/player_data.db")
   connection = sqlite3.connect("./Data/player_data.db")
   cursor = connection.cursor()
-  # to do: add controls
   sqlCreateCommand = """CREATE TABLE IF NOT EXISTS PLAYERS(
     id int,
     username varchar(255),
@@ -566,7 +552,6 @@ def create_player_table():
   cursor.execute(sqlCreateCommand)
   print("Player data reset.")
 
-
 def update_storage_data():
   if os.path.exists("./Data/storage_data.db"):
     os.remove("./Data/storage_data.db")
@@ -595,8 +580,7 @@ def update_storage_data():
         connection.commit()
   print("Storage data updated.")
 
-
-def update_all():
+def update_all_databases():
   update_attacks()
   update_abilities()
   update_troop_info()
@@ -610,16 +594,13 @@ def update_all():
   update_storage_data()
   add_update()
 
-
 def main():
   if not should_update():
     print("Not updating databases.")
     return False
   else:
-    # Database building
-    update_all()
+    update_all_databases()
     print("All databases complete.")
-
 
 if __name__ == '__main__':
   main()

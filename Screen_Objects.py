@@ -14,7 +14,6 @@ red = pygame.Color("Red")
 green = pygame.Color("Green")
 pattern = "^[a-zA-Z0-9!@#$&()\\-`.+,/\"]*$"
 
-# Images
 class Image():
   def __init__(self, image, pos, alpha=False):
     if alpha:
@@ -33,9 +32,6 @@ class Image():
     return self.graphic.get_size()
 
   def handle_event(self, event, display):
-    # if event.type == pygame.MOUSEBUTTONDOWN:
-      # if self.pos.collidepoint(event.pos):
-      #   print(self.pos)
     return None
 
 class BattlePowerImage(Image):
@@ -409,7 +405,6 @@ class ShopWeaponImage(Image):
         if self.obtainable and self.buyable:
           return self.return_value
 
-# Settings Changer
 class SettingsArrow(Image):
   def __init__(self, image, pos, direction):
     super().__init__(image, pos, True)
@@ -420,7 +415,6 @@ class SettingsArrow(Image):
       if self.pos.collidepoint(event.pos):
         return self.direction
   
-# Buttons
 class Button():
   def __init__(self, x, y, w, h, txtColor, inactiveColor, activeColor, text, bgColor=None):
     self.rect = pygame.Rect(x, y, w, h)
@@ -486,7 +480,6 @@ class BattleChoiceButton(Button):
         self.active = False
     return None
 
-# Boxes
 class InputBox():
   def __init__(self, x, y, w, h, txtColor, inactiveColor, activeColor, text='', front=0, back=20, name=""):
     self.name = name
@@ -505,12 +498,10 @@ class InputBox():
 
   def handle_event(self, event, display):
     if event.type == pygame.MOUSEBUTTONDOWN:
-      # If the user clicked on the input_box rect.
       if self.rect.collidepoint(event.pos):
         self.active = True
       else:
         self.active = False
-      # Change the current color of the input box.
       self.color = self.activeCol if self.active else self.inactiveCol
     if event.type == pygame.KEYDOWN and self.active:
       keys = pygame.key.get_pressed()
@@ -531,14 +522,12 @@ class InputBox():
       elif event.key != pygame.K_BACKSPACE and len(self.text) < self.back and re.fullmatch(pattern, event.unicode):
         self.previous_text.append(self.text)
         self.text += event.unicode
-      # Re-render the text.
       self.txt_surface = font.render(self.text, True, self.txtCol)
       self.update()
     self.draw(display)
     return self.text
 
   def update(self):
-    # Resize the box if the text is too long.
     if len(self.text) > self.front and self.name == "EmailBox":
       width = max(200, font.render(self.text[self.front:], True, self.txtCol).get_width()+10)
     elif len(self.text) > self.front and self.name == "PwordBox":
@@ -561,7 +550,6 @@ class InputBox():
   def txtOutput(self):
     return self.text[self.front:]
 
-# Text
 class Text():
   def __init__(self, text, pos, txtcol=black, bgcol=None, font=font):
     self.text = text
@@ -709,7 +697,6 @@ class DescText(Text):
         x = self.rect.left
         y += word_height
 
-# Screens
 class Screen():
   def __init__(self, number, events):
     self.events = events
