@@ -40,8 +40,7 @@ def missing_db():
     db_list = [
         "ability_info", "attacks",
         "barb_costs", "battle_info",
-        "battle_stats", "costs",
-        "player_data", "power_info",
+        "battle_stats", "power_info",
         "power_stats", "storage_data",
         "times", "troop_info",
         "troop_stats", "weapon_info",
@@ -49,7 +48,6 @@ def missing_db():
     ]
     for db in db_list:
         if not os.path.exists(f"./Data/{db}.db"):
-            print(db)
             return True
     return False
 
@@ -609,7 +607,6 @@ def update_all_databases():
     add_update()
 
 def main():
-    print(missing_db(), should_update())
     if missing_db() or should_update():
         update_all_databases()
         print("All databases complete.")
