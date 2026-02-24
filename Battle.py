@@ -5,11 +5,6 @@ from Game import display_message, display
 from BattleLoader import create_enemies
 import BattleScene
 
-def digit_range_check(vari,min=0,max=9):
-  if len(vari) != 1 or vari.isdigit() is False or (int(vari) < min or int(vari) > max):
-    return False
-  return True
-
 class Battle():
   def __init__(self, player, battle, mechanic=None, bg="grass.jpg"):
     if type(player) != Player:

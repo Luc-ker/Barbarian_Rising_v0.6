@@ -4,13 +4,8 @@ from BattleAbility import BattleAbility
 from Status import Status
 import random
 
-def make_array(str):
+def make_list(str):
   return str.split(",")
-
-def digit_range_check(vari,min=1,max=4):
-  if len(vari) != 1 or not vari.isdigit() or (int(vari) < min or int(vari) > max):
-    return False
-  return True
 
 def all_flying(enemies):
   if type(enemies) != list:
@@ -42,8 +37,8 @@ class BattleTroop(Troop):
     else:
       raise TypeError("Not a valid troop.")
     info = get_troop_info(self.internal_name)
-    self.weaknesses = make_array(info[4])
-    self.resistances = make_array(info[5])
+    self.weaknesses = make_list(info[4])
+    self.resistances = make_list(info[5])
     self.shield = info[6]
     self.max_shield = info[6]
     self.flying = (info[7] == "true")

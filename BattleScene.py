@@ -5,12 +5,6 @@ from Game import pygame, display, QUIT, blit_message, blue, green
 back_butt = BattleChoiceButton(448, 262, 102, 32, "Back",
                               blue, blue, green, -1)
 
-def digit_range_check(vari, min=1, max=4):
-  if (len(vari) != 1 or not vari.isdigit() or 
-      int(vari) < min or int(vari) > max):
-    return False
-  return True
-
 def remove_targets(battle):
   for enemy in battle.enemy_troops:
     enemy.graphic.remove_target(battle)
