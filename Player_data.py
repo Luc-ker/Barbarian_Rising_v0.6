@@ -7,7 +7,7 @@ def now():
 def should_refresh_stamina(login):
   if type(login) == str:
     login = datetime.strptime(login, '%Y-%m-%d %H:%M:%S.%f')
-  return login < now().replace(hour=6, minute=0, second=0, microsecond=0)
+  return login < now().replace(hour=0, minute=0, second=0, microsecond=0)
 
 def get_new_id():
   connection = sqlite3.connect("./Data/player_data.db")
